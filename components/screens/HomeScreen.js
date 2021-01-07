@@ -83,6 +83,7 @@ const Header = styled.View`
 const Avatar = styled.Image`
     width: 60px;
     height: 60px;
+    border-radius: 10px;
 `;
 
 const Categories = styled.ScrollView`
