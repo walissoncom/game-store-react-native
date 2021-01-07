@@ -45,7 +45,7 @@ export default HomeScreen = () => {
                 <Avatar source={require('../../assets/avatar.png')} />
             </Header>
 
-            <Categories horizontal={true} showHorizontalScrollIndicator={false}>
+            <Categories horizontal={true} showsHorizontalScrollIndicator={false}>
                 {categoryList.map((category, index) => {
                     return (
                         <Category key={index} onPress={() => changeCategory(category)}>
@@ -108,9 +108,8 @@ const CategoryDot = styled.View`
     background-color: #819EE5;
 `;
 
-
 const Games = styled.FlatList`
-    margin-top: 32px;
+    margin-top: 15px;
     flex: 1;
 `;
 
