@@ -1,0 +1,35 @@
+export default games = [
+    {
+        id: 1,
+        title: 'Godfall',
+        teaser: 'Hunt for loot and don legendary Armor sets in a new looter-slasher for PS5.',
+        description: 'Embark on adventure in a fantasy action RPG that utilizes high-impact third-person melee combat to engage players as they hunt for loot, don legendary armor sets and defeat vicious enemies. Face challenging missions that reward you with head-turning loot as you vanquish the armies that stand against you.',
+        rating: 4.5,
+        category: ['Action', 'Adventure'],
+        age: '12+',
+        cover: require('./assets/godfall_1.png'),
+        screenshots: [
+            require('./assets/godfall_2.png'),
+            require('./assets/godfall_3.png'),
+            require('./assets/godfall_4.png'),
+            require('./assets/godfall_5.png'),
+        ],
+        backgroundColor: '#456382',
+    },
+    {
+        id: 2,
+        title: 'Ori and the Will of the Wisps',
+        teaser: 'Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies.',
+        description: 'Play the critically acclaimed masterpiece. Embark on a new journey in a vast, exotic world where you’ll encounter towering enemies and challenging puzzles on your quest to unravel Ori’s destiny.',
+        rating: 3.8,
+        category: ['Action', 'Strategy', 'Indie'],
+        age: '11+',
+        cover: require('./assets/ori_1.jpg'),
+        screenshots: [
+            require('./assets/ori_2.jpeg'),
+            require('./assets/ori_3.jpg'),
+            require('./assets/ori_4.png'),
+        ],
+        backgroundColor: '#456382',
+    },
+]
