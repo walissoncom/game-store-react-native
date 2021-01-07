@@ -6,7 +6,7 @@ import Text from '../Text';
 import categoryList from '../../categories';
 import games from '../../gamesData';
 
-export default HomeScreen = () => {
+export default HomeScreen = ({ navigation }) => {
 
     const [selectedCategory, setSelectedCategory] = useState('All');
     const gamesRef = useRef();
@@ -18,7 +18,7 @@ export default HomeScreen = () => {
 
     const GameItem = (game) => {
         return (
-            <Game>
+            <Game onPress={() => navigation.navigate('GameScreen', { game: game })}>
                 <GameCover source={game.cover} />
                 <GameInfo backgroundColor={game.backgroundColor}>
                     <GameImage source={game.cover} />
