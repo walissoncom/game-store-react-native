@@ -138,5 +138,5 @@ const GameImage = styled.Image`
 `;
 
 const GameTitle = styled.View`
-    margin: 0 32px 0 24px;
+    margin: 0 50px 0 24px;
 `;
